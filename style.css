@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hedvig+Letters+Serif:opsz@12..24&family=Love+Light&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFEBF3;
+    width: 100vw;
+    
+}
+
+.lyrics{
+    margin-left: 32%;
+    text-align: center;
+    margin-top: 60px;
+    text-decoration: underline;
+    width: fit-content;
+    font-family: 'Oleo Script Swash Caps', system-ui;
+    font-weight: 100;
+    line-height: 180%;
+    animation-name: Move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Move {
+    from{
+        margin-left: 25%;
+        margin-top: 60px;
+
+    }
+    to{
+        margin-left: 36%;
+        margin-top: 70px;
+    }
+}
+
+#pickup-container{
+    /* background-color: red; */
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 30px;
+    display: block;
+    font-family: 'Hedvig Letters Serif';
+    /* font-family: "Abril Fatface"; */
+}
+
+#pickup-line{
+    transition: 0.5s ease-out;
+    /* background-color: aqua; */
+    opacity: 1;
+}
+
+.span_desi{
+    margin: 10px;
+    padding: 30px;
+    background-color:rgb(255, 0, 200);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.span_hot{
+    margin: 10px;
+    padding: 30px;
+    background-color:orange;
+    color: white;
+    border-radius: 50px
+}
+
+#question-cont{
+    /* background-color: blue; */
+    margin-top: 6em;
+    padding:20px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    font-size: 1.2em;
+}
+
+#pickup-container button{
+    position: relative;
+    margin: 30px;
+    padding:30px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 45%;
+    background-color: pink;
+    cursor: pointer;
+}
+
+#propose-cont{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 10em;
+    display: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 150px;
+}
+
+#h1_id{
+    font-size: 3em;
+}
+
+.btn-group{
+    background-color: antiquewhite;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn-group button{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: pink;
+    
+}
+button:nth-child(2){
+    margin-right: -200px;
+    background-color: rgb(255, 66, 66);;
+
+}
+
+.no_button{
+    left: 0;
+    top: 0;
+}
+
+footer{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+audio{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.span_shruti{
+
+    margin: 10px;
+    padding: 30px;
+    background-color: blue ;
+    color: white;
+    border-radius: 50px
+
+}
